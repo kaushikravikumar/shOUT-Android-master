@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "372932800824",
+    "firebase_url": "https://shout-e26bf.firebaseio.com",
+    "project_id": "shout-e26bf",
+    "storage_bucket": "shout-e26bf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:372932800824:android:04bbf9b696e4c5a2",
+        "android_client_info": {
+          "package_name": "com.android.shout.shout"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "372932800824-hldsngtb9n11slmfvabcc5jllndef6i2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCl2oB1AvPhMHx0bdATv3eS3dafzm-5Qa8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "372932800824-4eb5kd6d96ri0lb1c2173rja18ciorgo.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.shOUT.iOS"
+              }
+            },
+            {
+              "client_id": "372932800824-hldsngtb9n11slmfvabcc5jllndef6i2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

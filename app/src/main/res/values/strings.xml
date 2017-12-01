@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">shOUT</string>
+    <string name="action_settings">Settings</string>
+    <string name="findout">Find Out</string>
+    <string name="goout">Go Out</string>
+    <string name="speakout">Speak Out</string>
+    <string name="reachout">Reach Out</string>
+    <string name="title_activity_find_out">FindOut</string>
+    <string name="title_activity_go_out">GoOut</string>
+    <string name="title_activity_main2">Main2Activity</string>
+</resources>

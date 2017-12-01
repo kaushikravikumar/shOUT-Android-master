@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/findout"
+        android:enabled="true"
+        android:icon="@drawable/findout"
+        android:title="@string/findout"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/goout"
+        android:enabled="true"
+        android:icon="@drawable/goout"
+        android:title="@string/goout"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/speakout"
+        android:enabled="true"
+        android:icon="@drawable/speakout"
+        android:title="@string/speakout"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/reachout"
+        android:enabled="true"
+        android:icon="@drawable/reachout"
+        android:title="@string/reachout"
+        app:showAsAction="ifRoom" />
+</menu>

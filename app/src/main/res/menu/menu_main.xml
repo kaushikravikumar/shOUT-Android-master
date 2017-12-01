@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.android.shout.shout.MainActivity">
+    <item
+        android:id="@+id/compose"
+        android:orderInCategory="100"
+        android:enabled="true"
+        android:title="Compose"
+        app:showAsAction="ifRoom" />
+</menu>
