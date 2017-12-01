@@ -3,6 +3,15 @@
 
     <item
         is-multidex="false"
+        jar="/Users/kaushikr/Downloads/shOUT-Android-master/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="00d4c8eebf2b681073c72a26bd0849549e51c7cb">
+        <dex dex="/Users/kaushikr/Downloads/shOUT-Android-master/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-25.0.1_79a5856bed1f6acda12f2fbfb318de7e81ba8023.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="/Users/kaushikr/Downloads/shOUT-Android-master/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.0.1/jars/classes.jar"
         jumboMode="false"
         optimize="true"
@@ -39,105 +48,6 @@
     </item>
     <item
         is-multidex="false"
-        jar="/Users/kaushikr/Downloads/shOUT-Android-master/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.1"
-        sha1="26c6eef571592c91f29e56fda0bac73321de0c92">
-        <dex dex="/Users/kaushikr/Downloads/shOUT-Android-master/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-25.0.1_1f053765fdf30647ced188ba974e6c69bbf72c5d.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/kaushikr/Downloads/shOUT-Android-master/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.1/jars/libs/internal_impl-25.0.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.1"
-        sha1="3af8cc51ef7088e56f132780da8c0bd858b6a6ad">
-        <dex dex="/Users/kaushikr/Downloads/shOUT-Android-master/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.1_a3f026474a254b3002539d8cc609cc09a4f1e84c.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/kaushikr/Downloads/shOUT-Android-master/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.1"
-        sha1="6a1479afe9f1b3645e1cd9a87318976893472818">
-        <dex dex="/Users/kaushikr/Downloads/shOUT-Android-master/app/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-25.0.1_18a5c4b84c61f78071681377058f0748171543d8.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/kaushikr/Downloads/shOUT-Android-master/app/build/intermediates/exploded-aar/com.google.firebase/firebase-database/10.0.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.1"
-        sha1="8f128aeeb7e31271b28a7adb9dac1f3a6ed9f5e7">
-        <dex dex="/Users/kaushikr/Downloads/shOUT-Android-master/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-database-10.0.1_5ac8b701cc1e9f69d93a1a3d2c8c3c441193e29e.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/kaushikr/Downloads/shOUT-Android-master/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.1"
-        sha1="bc7e99e8d0fc279a05aa91378530f467ad62d443">
-        <dex dex="/Users/kaushikr/Downloads/shOUT-Android-master/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-25.0.1_95e65c91f04c1f3ccc8667fe4234eeef03bbbc58.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/kaushikr/Downloads/shOUT-Android-master/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/10.0.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.1"
-        sha1="6116e0e7069de7fc259aac8e08b84f32c2038231">
-        <dex dex="/Users/kaushikr/Downloads/shOUT-Android-master/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-analytics-impl-10.0.1_f2b4e4ffc2a8998dbcdb37d9572ac86058d0b76d.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/kaushikr/Downloads/shOUT-Android-master/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/10.0.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.1"
-        sha1="eb0d830e3eabb9deb9ec44869cf7ac7ea1ad794c">
-        <dex dex="/Users/kaushikr/Downloads/shOUT-Android-master/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-common-10.0.1_2351fd140b511daa78418590795d1239ae2889da.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/kaushikr/Downloads/shOUT-Android-master/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/10.0.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.1"
-        sha1="433f4d6aa5f21f19552afe0e6c5eff0fedba73ad">
-        <dex dex="/Users/kaushikr/Downloads/shOUT-Android-master/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-analytics-10.0.1_5ec9c9ee5ab5c51a270c392e3fa3de3d12b2067f.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/kaushikr/Downloads/shOUT-Android-master/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.1/jars/libs/internal_impl-25.0.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.1"
-        sha1="f83b00041ecfba705603fec40363416c7de69719">
-        <dex dex="/Users/kaushikr/Downloads/shOUT-Android-master/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.1_7c34b77398e770d7578c0bcef7030866dea1f5e3.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/kaushikr/Downloads/shOUT-Android-master/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.0.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.1"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="/Users/kaushikr/Downloads/shOUT-Android-master/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-25.0.1_24c354057a8861f08c6b1a2b551ebc5fd22cc104.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/kaushikr/Downloads/shOUT-Android-master/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.1"
-        sha1="00d4c8eebf2b681073c72a26bd0849549e51c7cb">
-        <dex dex="/Users/kaushikr/Downloads/shOUT-Android-master/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-25.0.1_79a5856bed1f6acda12f2fbfb318de7e81ba8023.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="/Users/kaushikr/Downloads/shOUT-Android-master/app/build/intermediates/exploded-aar/com.android.support/design/25.0.1/jars/classes.jar"
         jumboMode="false"
         optimize="true"
@@ -162,6 +72,15 @@
         revision="25.0.1"
         sha1="c5b7145fb34779b6639147b8f2f8dd77c0db771b">
         <dex dex="/Users/kaushikr/Downloads/shOUT-Android-master/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.1_7c894c477d0e79efb8ce3517105bf3dd92d64461.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/kaushikr/Downloads/shOUT-Android-master/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="26c6eef571592c91f29e56fda0bac73321de0c92">
+        <dex dex="/Users/kaushikr/Downloads/shOUT-Android-master/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-25.0.1_1f053765fdf30647ced188ba974e6c69bbf72c5d.jar" />
     </item>
     <item
         is-multidex="false"
@@ -192,6 +111,15 @@
     </item>
     <item
         is-multidex="false"
+        jar="/Users/kaushikr/Downloads/shOUT-Android-master/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="3af8cc51ef7088e56f132780da8c0bd858b6a6ad">
+        <dex dex="/Users/kaushikr/Downloads/shOUT-Android-master/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.1_a3f026474a254b3002539d8cc609cc09a4f1e84c.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="/Users/kaushikr/Downloads/shOUT-Android-master/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/10.0.1/jars/classes.jar"
         jumboMode="false"
         optimize="true"
@@ -201,12 +129,57 @@
     </item>
     <item
         is-multidex="false"
+        jar="/Users/kaushikr/Downloads/shOUT-Android-master/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/25.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="1108575c7dc7b7f5b378b3290ac90de81a9b8830">
+        <dex dex="/Users/kaushikr/Downloads/shOUT-Android-master/app/build/intermediates/pre-dexed/debug/com.android.support-cardview-v7-25.0.1_d6b104a95075f848df0a643e498b92acb43eeedc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/kaushikr/Downloads/shOUT-Android-master/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="6a1479afe9f1b3645e1cd9a87318976893472818">
+        <dex dex="/Users/kaushikr/Downloads/shOUT-Android-master/app/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-25.0.1_18a5c4b84c61f78071681377058f0748171543d8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/kaushikr/Downloads/shOUT-Android-master/app/build/intermediates/exploded-aar/com.google.firebase/firebase-database/10.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="8f128aeeb7e31271b28a7adb9dac1f3a6ed9f5e7">
+        <dex dex="/Users/kaushikr/Downloads/shOUT-Android-master/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-database-10.0.1_5ac8b701cc1e9f69d93a1a3d2c8c3c441193e29e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/kaushikr/Downloads/shOUT-Android-master/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="bc7e99e8d0fc279a05aa91378530f467ad62d443">
+        <dex dex="/Users/kaushikr/Downloads/shOUT-Android-master/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-25.0.1_95e65c91f04c1f3ccc8667fe4234eeef03bbbc58.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="/Users/kaushikr/Downloads/shOUT-Android-master/app/build/intermediates/exploded-aar/com.google.firebase/firebase-database-connection/10.0.1/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.1"
         sha1="8010ae6ed32828a145b25ec97bc07b7a83c6318f">
         <dex dex="/Users/kaushikr/Downloads/shOUT-Android-master/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-database-connection-10.0.1_4acf77f127677bdac91817d461cf41df2d4ffa54.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/kaushikr/Downloads/shOUT-Android-master/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/10.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="6116e0e7069de7fc259aac8e08b84f32c2038231">
+        <dex dex="/Users/kaushikr/Downloads/shOUT-Android-master/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-analytics-impl-10.0.1_f2b4e4ffc2a8998dbcdb37d9572ac86058d0b76d.jar" />
     </item>
     <item
         is-multidex="false"
@@ -225,6 +198,24 @@
         revision="25.0.1"
         sha1="51eba4a4dd73044f90a9d58dd7ca34adbebfcf4e">
         <dex dex="/Users/kaushikr/Downloads/shOUT-Android-master/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-25.0.1_44754463428243f59d18bde148779203b4a97e10.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/kaushikr/Downloads/shOUT-Android-master/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/10.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="eb0d830e3eabb9deb9ec44869cf7ac7ea1ad794c">
+        <dex dex="/Users/kaushikr/Downloads/shOUT-Android-master/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-common-10.0.1_2351fd140b511daa78418590795d1239ae2889da.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/kaushikr/Downloads/shOUT-Android-master/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/10.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="433f4d6aa5f21f19552afe0e6c5eff0fedba73ad">
+        <dex dex="/Users/kaushikr/Downloads/shOUT-Android-master/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-analytics-10.0.1_5ec9c9ee5ab5c51a270c392e3fa3de3d12b2067f.jar" />
     </item>
     <item
         is-multidex="false"
@@ -252,6 +243,24 @@
         revision="25.0.1"
         sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
         <dex dex="/Users/kaushikr/Downloads/shOUT-Android-master/app/build/intermediates/pre-dexed/debug/constraint-layout-solver-1.0.2_20ab8de2a35e5c4dbd93d567a6b055ff950c940e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/kaushikr/Downloads/shOUT-Android-master/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="f83b00041ecfba705603fec40363416c7de69719">
+        <dex dex="/Users/kaushikr/Downloads/shOUT-Android-master/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.1_7c34b77398e770d7578c0bcef7030866dea1f5e3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/kaushikr/Downloads/shOUT-Android-master/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/kaushikr/Downloads/shOUT-Android-master/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-25.0.1_24c354057a8861f08c6b1a2b551ebc5fd22cc104.jar" />
     </item>
 
 </items>
