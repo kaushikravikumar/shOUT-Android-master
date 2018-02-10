@@ -1,27 +1,27 @@
 {
   "project_info": {
-    "project_number": "372932800824",
-    "firebase_url": "https://shout-e26bf.firebaseio.com",
-    "project_id": "shout-e26bf",
-    "storage_bucket": "shout-e26bf.appspot.com"
+    "project_number": "974596235185",
+    "firebase_url": "https://shout-b8c83.firebaseio.com",
+    "project_id": "shout-b8c83",
+    "storage_bucket": "shout-b8c83.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:372932800824:android:04bbf9b696e4c5a2",
+        "mobilesdk_app_id": "1:974596235185:android:04bbf9b696e4c5a2",
         "android_client_info": {
           "package_name": "com.android.shout.shout"
         }
       },
       "oauth_client": [
         {
-          "client_id": "372932800824-hldsngtb9n11slmfvabcc5jllndef6i2.apps.googleusercontent.com",
+          "client_id": "974596235185-oj1a29frp66gs5jt3s0k8bv3j3r22tmq.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyCl2oB1AvPhMHx0bdATv3eS3dafzm-5Qa8"
+          "current_key": "AIzaSyCPVowHmVdNiNHQJDhyAZy7MTZvjZJJvYs"
         }
       ],
       "services": {
@@ -29,20 +29,8 @@
           "status": 1
         },
         "appinvite_service": {
-          "status": 2,
-          "other_platform_oauth_client": [
-            {
-              "client_id": "372932800824-4eb5kd6d96ri0lb1c2173rja18ciorgo.apps.googleusercontent.com",
-              "client_type": 2,
-              "ios_info": {
-                "bundle_id": "com.shOUT.iOS"
-              }
-            },
-            {
-              "client_id": "372932800824-hldsngtb9n11slmfvabcc5jllndef6i2.apps.googleusercontent.com",
-              "client_type": 3
-            }
-          ]
+          "status": 1,
+          "other_platform_oauth_client": []
         },
         "ads_service": {
           "status": 2

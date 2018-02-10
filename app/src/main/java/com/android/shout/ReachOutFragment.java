@@ -8,7 +8,6 @@ import android.view.ViewGroup;
 import android.widget.ExpandableListAdapter;
 import android.widget.ExpandableListView;
 
-import com.android.shout.R;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
@@ -32,6 +31,8 @@ public class ReachOutFragment extends Fragment {
         DatabaseReference firebase = database.getReference("resources");
         final View view = inflater.inflate(R.layout.reachout_fragment, container, false);
         final ExpandableListView listView = (ExpandableListView) view.findViewById(R.id.expand);
+
+        // ADD CODE HERE THAT PROGRAMATICALLY ADDS RESOURCES TO DB! TODO
 
         firebase.addListenerForSingleValueEvent(new ValueEventListener() {
             @Override

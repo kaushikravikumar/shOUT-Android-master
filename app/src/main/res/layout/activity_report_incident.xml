@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.android.shout.ReportIncident">
+
+    <EditText
+        android:id="@+id/postTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:paddingBottom="20dp"
+        android:ems="10"
+        android:textSize="25dp"
+        android:hint="Title of Post"
+        android:gravity="center_horizontal"
+        android:inputType="textPersonName"
+        android:background="#668a83"
+        android:text=""
+        android:textColor="@android:color/white"
+        android:textColorHint="@android:color/white"
+        tools:layout_editor_absoluteX="84dp"
+        tools:layout_editor_absoluteY="200dp"
+        android:layout_marginTop="24dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+    <EditText
+        android:id="@+id/postText"
+        android:hint="Share your own story..."
+        android:layout_width="wrap_content"
+        android:layout_height="250dp"
+        android:ems="10"
+        android:paddingLeft="10dp"
+        android:inputType="textMultiLine"
+        android:background="@drawable/edittext_background"
+        tools:layout_editor_absoluteX="84dp"
+        tools:layout_editor_absoluteY="156dp"
+        android:layout_above="@+id/postButton"
+        android:layout_marginBottom="18dp"
+        android:layout_alignRight="@+id/postTitle"
+        android:layout_alignEnd="@+id/postTitle"
+        android:layout_alignLeft="@+id/postTitle"
+        android:layout_alignStart="@+id/postTitle" />
+
+    <Button
+        android:id="@+id/postButton"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Post"
+        android:onClick="post"
+        tools:layout_editor_absoluteX="84dp"
+        tools:layout_editor_absoluteY="310dp"
+        android:layout_marginLeft="26dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginBottom="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/postTitle"
+        android:layout_alignStart="@+id/postTitle" />
+
+    <Button
+        android:id="@+id/cancel"
+        style = "@android:style/Widget.Material.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cancel"
+        android:onClick="cancel"
+        tools:layout_editor_absoluteX="211dp"
+        tools:layout_editor_absoluteY="310dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_alignBaseline="@+id/postButton"
+        android:layout_alignBottom="@+id/postButton"
+        android:layout_alignRight="@+id/postTitle"
+        android:layout_alignEnd="@+id/postTitle" />
+
+    <ImageButton
+        android:id="@+id/setDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="setDate"
+        app:srcCompat="@drawable/calendar"
+        android:background="@null"
+        android:layout_marginTop="25dp"
+        android:layout_below="@+id/postTitle"
+        android:layout_centerHorizontal="true" />
+
+    <ImageButton
+        android:id="@+id/setLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/location"
+        android:background="@null"
+        android:layout_alignTop="@+id/setDate"
+        android:onClick="setLocation"
+        android:layout_alignRight="@+id/cancel"
+        android:layout_alignEnd="@+id/cancel" />
+
+    <ImageButton
+        android:id="@+id/setTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        app:srcCompat="@drawable/clock"
+        android:onClick="setTime"
+        android:layout_alignTop="@+id/setDate"
+        android:layout_alignLeft="@+id/postButton"
+        android:layout_alignStart="@+id/postButton" />
+
+</RelativeLayout>

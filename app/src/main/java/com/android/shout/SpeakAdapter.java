@@ -22,25 +22,30 @@ public class SpeakAdapter extends RecyclerView.Adapter<SpeakAdapter.ViewHolder> 
 
     private ArrayList<String> dateList;
 
+    private ArrayList<String> timeList;
+
     private Context c;
 
     public static class ViewHolder extends RecyclerView.ViewHolder {
         TextView title;
         TextView body;
         TextView date;
+        TextView time;
 
         public ViewHolder(View v) {
             super(v);
             title = (TextView) v.findViewById(R.id.title);
             body = (TextView) v.findViewById(R.id.body);
             date = (TextView) v.findViewById(R.id.date);
+            time = (TextView) v.findViewById(R.id.time);
         }
     }
 
-    public SpeakAdapter(ArrayList<String> titleList, ArrayList<String> bodyList, ArrayList<String> dateList, Context c) {
+    public SpeakAdapter(ArrayList<String> titleList, ArrayList<String> bodyList, ArrayList<String> dateList, ArrayList<String> timeList, Context c) {
         this.titleList = titleList;
         this.bodyList = bodyList;
         this.dateList = dateList;
+        this.timeList = timeList;
         this.c = c;
     }
 
@@ -58,6 +63,7 @@ public class SpeakAdapter extends RecyclerView.Adapter<SpeakAdapter.ViewHolder> 
         holder.title.setText(titleList.get(position));
         holder.body.setText(bodyList.get(position));
         holder.date.setText(dateList.get(position));
+        holder.time.setText(timeList.get(position));
     }
 
     @Override
